@@ -7,7 +7,7 @@ public class Hw3 {
 
         Scanner in =new Scanner(System.in);
 
-        System.out.println("ì´ë¦„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”");
-        =in.next();
+        System.out.println("?´ë¦„ì„ ?…? ¥?•´ì£¼ì„¸?š”");
+        int a =in.nextInt();
     }
 }
