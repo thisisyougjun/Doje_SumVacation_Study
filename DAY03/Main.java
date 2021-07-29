@@ -1,7 +1,7 @@
 package DAY03;
 
 public class Main {
-    public static /* ¸ðµç Å¬·¡½º¿Í º¯¼ö °øÀ¯ */void main(String[] args) {
+    public static /* ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */void main(String[] args) {
         
         Bus bus =new Bus();
         Subway subway =new Subway(null);
@@ -27,7 +27,6 @@ public class Main {
 
         bus.showInfo();
         subway.showInfo();
-
     
     }
 }

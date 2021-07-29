@@ -8,20 +8,20 @@
 package Day01_Day_02;
 public class Hw_21_07_28 {
 	public static void main(String[] args) {
-		MyDate yesterday = new MyDate(2021, 7, 28);
-		MyDate today = new MyDate(2021, 7, 27);
+		Date yesterday = new Date(2021, 7, 28);
+		Date today = new Date(2021, 7, 27);
 		yesterday.print();
 		today.print();
 	}
 }
 
-class MyDate {
+class Date {
 	private int day;
 	private int month;
 	private int year;
 
 	// 생성자 함수를 추가하세요
-	public MyDate(int year, int month, int day){
+	public Date(int year, int month, int day){
 		this.day=day;
 		this.month=month;
 		this.year=year;

@@ -4,11 +4,12 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Book book1=new Book("ÅÂ¹é »ê¸Æ ", "Á¶Á¤·¡");
+        Book book1=new Book("ï¿½Â¹ï¿½ ï¿½ï¿½ï¿½ ", "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+
 
         ArrayList<Book> lb =new ArrayList<>();
 
-        lb.add(new Book("µ¥¹Ì¾È", "Çì¸£¸¸ Çì¼¼"));
+        lb.add(new Book("ï¿½ï¿½ï¿½Ì¾ï¿½", "ï¿½ì¸£ï¿½ï¿½ ï¿½ì¼¼"));
 
        /* for (int i = 0; i < library.size(); i++) {
             Book book =lb.get(i);
